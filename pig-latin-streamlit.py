@@ -75,6 +75,8 @@ def pigify(word):
 def pigify_sentence(sentence):
     '''Turns the entire sentence into pig latin.'''
     
+    sentence = sentence.strip()
+
     # return empty sentence
     if sentence == "":
         return ""
